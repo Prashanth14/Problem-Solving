@@ -45,7 +45,7 @@ int main()
         max=A[0], min=A[0], i=1;
     }
     
-    for(i;i<size-1;i++){
+    for(i;i<size-1;i+=2){
         if(A[i]>A[i+1]){
             if(A[i]>max){
                 max=A[i];
