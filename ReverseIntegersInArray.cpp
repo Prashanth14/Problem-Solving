@@ -10,7 +10,7 @@ int main()
 {
     
    int size=5;
-   int A[size] = {1,2,3,4,5};
+   int A[5] = {1,2,3,4,5};
    //Reverse elements in the array 
    int t;
    for(int i=0; i<size/2; i++){
