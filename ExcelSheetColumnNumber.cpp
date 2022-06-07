@@ -33,10 +33,12 @@ public:
             return c; 
         }
             
-        int res = 0;
-        for(int i = 0; i < n; i++){
+        int res = 0, j=0;
+        
+        for(int i = n-1; i >= 0; i--){
             c = columnTitle[i] - 64;
-            res = res * 26 + c;
+            res +=  pow(26, j++) * c ;
+            
         }
             
        return res; 
