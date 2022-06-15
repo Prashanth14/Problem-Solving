@@ -39,12 +39,12 @@ public:
         if(!root){
             return;
         }
-        preTraversal(root -> left);
+        InTraversal(root -> left);
         res.push_back(root -> val);
-        preTraversal(root -> right);
+        InTraversal(root -> right);
     }
     vector<int> inorderTraversal(TreeNode* root) {
-        preTraversal(root);
+        InTraversal(root);
         return res;
     }
 };
