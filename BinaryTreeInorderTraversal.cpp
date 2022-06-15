@@ -35,7 +35,7 @@
 class Solution {
 public:
     vector<int> res;
-    void preTraversal(TreeNode* root){
+    void InTraversal(TreeNode* root){
         if(!root){
             return;
         }
