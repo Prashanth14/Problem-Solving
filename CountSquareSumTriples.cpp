@@ -34,3 +34,9 @@ public:
         return count * 2;
     }
 };
+
+
+git status
+git add .
+git commit -m "going to b location"
+git push origin main(B)
