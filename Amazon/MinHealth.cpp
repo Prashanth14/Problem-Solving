@@ -37,6 +37,18 @@ long findMinHealth(vector<int>& power, int armor){
     }
     minhealth = minhealth - armor + 1;
     return minhealth;
+
+    // int maxi = 0;
+    //     long health = 1; 
+        
+    //     for(int i=0; i<damage.size();i++){
+    //         health += damage[i];
+    //         maxi = max(maxi,damage[i]);
+    //     }
+        
+	// 	// 3. To optimally use the armor, we need to use it against the that level that inflicts the most damage.
+    //     health -= min(maxi,armor);
+    //     return health;
 }
 
 int main(){
