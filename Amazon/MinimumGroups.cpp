@@ -6,7 +6,7 @@
 #include<algorithm>
 using namespace std;
 
-
+//Calculating the minimum number of groups
 int minimumGroups(vector<int>& awards, int k){
     sort(awards.begin(), awards.end());
     int groups = 0;
