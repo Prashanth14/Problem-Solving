@@ -5,7 +5,7 @@
 #include<algorithm>
 #include <iterator> 
 using namespace std;
-
+// find subsequence of the string
 int subSequence(string str, string output[]){
     if(str.length() == 0){
         output[0] = "";
