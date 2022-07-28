@@ -8,6 +8,7 @@
 #include <climits>
 #include<algorithm>
 using namespace std;
+
 int smallestSum(long long int n){
     if(n < 10)
         return n;
