@@ -4,7 +4,7 @@
 
 using namespace std;
 
-// A utility function to swap two elements
+
 void swap(int & x, int & y) {
   int temp = x;
   x = y;
