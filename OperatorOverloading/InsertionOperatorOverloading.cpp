@@ -14,8 +14,6 @@ class Complex{
             img = i;
         }
         
-        
-         
         // Display complex number using Insertion Operator Overloading
         friend ostream & operator<<(ostream &out, Complex &c);
 };
