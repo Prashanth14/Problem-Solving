@@ -37,6 +37,6 @@ int main(){
     p->func2();
     p->func3();
     //p->func4(); error: no member named 'func4' in 'Base' p->func4();, so we cannot access derived class function with Base class pointer
-    
+    //p -> func5();
     return 0;
 }
