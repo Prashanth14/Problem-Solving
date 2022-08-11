@@ -18,8 +18,6 @@ class Derived :public Base{
 };
 int main()
 {
-//   Base b;
-//   b.display();
     Derived d;
     d.a = 100;
     d.display();
